@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* === Header Styles === */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 span {
+    color: rgba(10, 255, 240, 0.4);
+}
+
+
+/* === Header End === */
+
+
+
+main {
+    height: 100%;
+    background-image: linear-gradient(rgba(33, 116, 212, 1), rgba(222, 229, 252, 1) 18%);
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
