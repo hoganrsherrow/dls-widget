@@ -12,10 +12,11 @@ Case.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
-            autoIncrement: false
+            autoIncrement: true
         },
         aa_id: {
             type: DataTypes.INTEGER,
+            allowNull: false,
             references: {
                 model: 'aa',
                 key: 'id'
@@ -26,7 +27,7 @@ Case.init(
         sequelize,
         freezeTableName: true,
         underscored: true,
-        modelName: 'case'
+        modelName: 'dls_case'
     }
 );
 

@@ -1,4 +1,4 @@
-const Sequelize = requrie('sequelize');
+const Sequelize = require('sequelize');
 
 require('dotenv').config();
 
