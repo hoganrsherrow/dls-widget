@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS dls_db;
+
+CREATE DATABASE dls_db;
