@@ -1,13 +1,12 @@
 const router = require('express').Router();
 const homeRouter = require('./home-routes');
+const dlsRouter = require('./dls-routes');
 
-router.use('/api', require('./api/index.js'));
 router.use('/', homeRouter);
-
-// router.get('/', (req, res) => {
-//     console.log(`=== homepage ===`);
-//     res.sendFile('../public/index.html');
-// })
+// router.use('/api/', dlsRouter);
+router.get('/api', (req, res) => {
+    res.send('hello');
+});
 
 
 module.exports = router;
